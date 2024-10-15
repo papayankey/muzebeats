@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .hambuger {
+      @apply h-1.5 w-full rounded-sm bg-white bg-opacity-25 backdrop-filter backdrop-blur-md cursor-pointer group-hover:bg-opacity-40 transition-opacity;
+    }
+}

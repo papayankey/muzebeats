@@ -6,7 +6,7 @@ import { ToolboxComponent } from "./shared";
   standalone: true,
   imports: [ToolboxComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'muzbeats';
